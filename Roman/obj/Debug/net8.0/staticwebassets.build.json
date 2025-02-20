@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "Hash": "fMXVUTNKg8+2MswUIBaeGc93jbJhanjfjzmEzPDzSxU=",
+  "Source": "Roman",
+  "BasePath": "_content/Roman",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Roman\\wwwroot",
+      "Source": "Roman",
+      "ContentRoot": "C:\\Users\\Computer\\Desktop\\Roman\\Roman\\wwwroot\\",
+      "BasePath": "_content/Roman",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Computer\\Desktop\\Roman\\Roman\\wwwroot\\index.html",
+      "SourceId": "Roman",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Computer\\Desktop\\Roman\\Roman\\wwwroot\\",
+      "BasePath": "_content/Roman",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\Computer\\Desktop\\Roman\\Roman\\wwwroot\\script.js",
+      "SourceId": "Roman",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Computer\\Desktop\\Roman\\Roman\\wwwroot\\",
+      "BasePath": "_content/Roman",
+      "RelativePath": "script.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\script.js"
+    },
+    {
+      "Identity": "C:\\Users\\Computer\\Desktop\\Roman\\Roman\\wwwroot\\style.css",
+      "SourceId": "Roman",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Computer\\Desktop\\Roman\\Roman\\wwwroot\\",
+      "BasePath": "_content/Roman",
+      "RelativePath": "style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\style.css"
+    }
+  ]
+}

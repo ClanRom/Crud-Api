@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Computer\\Desktop\\Roman\\Roman\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Computer\\Desktop\\Roman\\Roman\\wwwroot\\script.js",
+      "PackagePath": "staticwebassets\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\Computer\\Desktop\\Roman\\Roman\\wwwroot\\style.css",
+      "PackagePath": "staticwebassets\\style.css"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.Roman.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.Roman.props",
+      "PackagePath": "build\\Roman.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Roman.props",
+      "PackagePath": "buildMultiTargeting\\Roman.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.Roman.props",
+      "PackagePath": "buildTransitive\\Roman.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
