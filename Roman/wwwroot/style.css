@@ -31,6 +31,7 @@ form {
 }
 
 input, textarea {
+    font-size: 14px;
     width: 80%;
     padding: 10px;
     margin: 5px;
@@ -39,7 +40,7 @@ input, textarea {
 }
 
 button {
-    padding: 10px, 15px;
+    padding: 10px;
     margin-top: 5px;
     cursor: pointer;
     border: 1px solid #ccc;
@@ -106,7 +107,7 @@ button.delete:hover{
     box-shadow: 0, 2px, 5px rgba(0, 0, 0, 0.1);
 }
 
-.about p{
+.about p, .post p{
     line-height: 1.6;
     color: #555;
 }

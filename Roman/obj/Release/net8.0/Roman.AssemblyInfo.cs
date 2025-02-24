@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Roman")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+21e5c9e5df7a8424a7ecf4109df0fe2177e5c982")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8722ea72ff487b5eabdb1d1b12b286a8d54846e3")]
 [assembly: System.Reflection.AssemblyProductAttribute("Roman")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Roman")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

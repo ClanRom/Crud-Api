@@ -13,7 +13,7 @@ function fetchPosts() {
                 const li = document.createElement('li');
                 li.classList.add('post');
                 li.innerHTML = `
-                    <h3>${post.title}</h3>
+                    <h2>${post.title}</h2>
                     <p>${post.description}</p>
                     <button class="delete" onclick="deletePost(${post.id})">Удалить</button>
                 `;
