@@ -1,20 +1,22 @@
-﻿* {
+﻿body {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
     margin: 0;
     padding: 0;
 }
 
-body {
-    box-sizing: border-box;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    max-width: 1140px;
-    margin-left: auto;
-    margin-right: auto;
+header {
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    background-color: #e9e7e7;
+    background-color: #007BFF;
+    color: white;
+    padding: 20px;
 }
 
-h1{
-    margin: 20px;
+header h1{
+    margin-bottom: 0;
 }
 
 form {
@@ -26,69 +28,92 @@ form {
     margin-left: auto;
     margin-right: auto;
     max-width: 500px;
-    background-color: #6777ee;
 }
 
-input, textarea{
+input, textarea {
     width: 80%;
     padding: 10px;
     margin: 5px;
-    border: 1px solid black;
-}
-
-button{
-    padding: 8px;
-    margin-top: 5px;
-    cursor: pointer;
-    border: 1px solid black;
+    border: 1px solid #ccc;
     border-radius: 5px;
 }
 
+button {
+    padding: 10px, 15px;
+    margin-top: 5px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: white;
+}
+
 button.submit{
-    background-color: #58e767;
+    background-color: #28a745;
 }
 
 button.submit:hover{
-    background-color: #1ed731;
+    background-color: #218838;
 }
 
-h2{
-    margin: 30px 0 20px 0;
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+#header-list{
+    text-align: center;
+}
+
+.post 
+{
+    background: white;
+    margin: 10px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    position: relative;
+    transition: transform 0.3s, box-shadow 0.3s ease-in-out;
+}
+
+.post:hover{
+    transform: scale(1.02);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 ul{
     list-style: none;
-    display: flex;
-    grid-gap: 10px;
-    justify-content: center;
-    flex-wrap: wrap;
-    height: 200px;
-}
-
-li {
-    width: 250px;
-    background-color: #bfbf40;
-    padding: 30px;
-    border: 1px solid black;
-    border-radius: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-h3{
-    font-size: 30px;
-}
-
-p{
-    font-size: 20px;
-    margin: 20px 0;
+    padding: 0;
 }
 
 button.delete {
     background-color: #dd6373;
+    position: absolute;
+    top: 10px;
+    right: 10px;
 }
 
 button.delete:hover{
     background-color: #c92d42;
+}
+
+.about{
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0, 2px, 5px rgba(0, 0, 0, 0.1);
+}
+
+.about p{
+    line-height: 1.6;
+    color: #555;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #007BFF;
+    color: white;
 }

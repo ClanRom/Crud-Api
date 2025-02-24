@@ -56,6 +56,7 @@ namespace Roman
 
             movie.Title = movieData.Title;
             movie.Description = movieData.Description;
+            _dbContext.Movies.Update(movie);
             await _dbContext.SaveChangesAsync();
             return movie;
         }

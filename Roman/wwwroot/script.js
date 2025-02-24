@@ -11,6 +11,7 @@ function fetchPosts() {
             postList.innerHTML = '';
             posts.forEach(post => {
                 const li = document.createElement('li');
+                li.classList.add('post');
                 li.innerHTML = `
                     <h3>${post.title}</h3>
                     <p>${post.description}</p>

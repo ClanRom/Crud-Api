@@ -7,16 +7,33 @@
     <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
+    <header>
+        <h1>Кино Блог</h1>
+        <p>Добро пожаловать в мир кино!</p>
+    </header>
+
     <div class="container">
-        <h1>Добавить фильм</h1>
         <form id="postForm">
-            <input type="text" id="title" placeholder="Заголовок" required>
-            <textarea id="description" placeholder="Содержимое" rows="4" required></textarea>
+            <input type="text" id="title" placeholder="Введите название фильма" required>
+            <textarea id="description" placeholder="Введите описание фильма" rows="4" required></textarea>
             <button class="submit" type="submit">Добавить фильм</button>
         </form>
-        <h2>Список фильмов</h2>
+
+        <h2 id="header-list">Список Фильмов</h2>
         <ul id="postList"></ul>
+
+        <div class="about">
+            <h2>О сайте</h2>
+            <p>
+                Этот блог посвящен всем любителям кино! Здесь вы найдете рецензии на новые и классические фильмы, рекомендации и обсуждения. Мы стремимся создать сообщество, где каждый сможет поделиться своим мнением о фильмах и открыть для себя что-то новое.
+            </p>
+            <p>Кино — это искус</p>
+        </div>
     </div>
-    <script src="script.js"></script>
+    <footer>
+        <p>&copy; 2023 Мой Блог. Все права защищены.</p>
+    </footer>
+<script src="script.js"></script>
 </body>
 </html>
+
